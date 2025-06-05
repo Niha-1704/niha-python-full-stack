@@ -1,0 +1,4 @@
+ram 23
+sam 33
+dam 45
+cam 64
