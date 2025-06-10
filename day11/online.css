@@ -1,0 +1,39 @@
+body{
+    background-color:white;
+    color :rgb(16, 15, 14)
+}
+h1{
+    text-align: center;
+}
+header{
+    padding:10px;
+    background-color:rgb(135, 239, 197);
+    border:1px solid black;
+    margin-bottom:40px;
+}
+.iplTeam{
+    border:1px solid rgb(19, 18, 18);  
+    padding: 15px;
+    margin:10px 0px 10px 0px;
+    font-size:30px;
+    /* text-shadow: 3px 3px 3px; */
+    /* width:1000px; to adjust the box that cant be overflow of the container*/ 
+    width:50%;
+    box-sizing: border-box;/*it will exact mid point.It will add the padding and margin to the width. */
+    border-radius:20px;
+    
+
+}
+#csk{
+    /* margin:top right bottom left; */
+    color : rgba(15, 15, 15, 0.877);
+    
+    padding: 15px;
+}
+#ipl-container{
+    display:flex;
+    border: 1px solid rgb(26, 12, 15);
+    justify-content:space-between;
+    align-items : center;
+    height : 200px;
+}

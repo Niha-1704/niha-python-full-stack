@@ -1,0 +1,26 @@
+header{
+    border:1px solid;
+    padding:20px;
+    margin:20px;
+    background-color:rgb(207, 188, 192)
+}
+h1{
+    border:1px solid;
+    width:20%;
+    box-sizing:border-box;
+    text-align:center;
+}
+.box{
+    border:1px solid;
+    display : flex;
+    justify-content:space-evenly;
+    height:300px;
+    align-items:center;/* for align-items we hat=ve to specify height*/
+    /* flex-direction:row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: nowrap; */
+    flex-wrap: wrap;
+    align-content:stretch;
+}
