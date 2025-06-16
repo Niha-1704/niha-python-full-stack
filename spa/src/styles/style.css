@@ -1,0 +1,12 @@
+.container{
+    background-color: teal;
+    color : white;
+    text-align: center;
+    padding:10px;
+}
+.button{
+    background-color: teal;
+    display: flex;
+    justify-content: space-evenly;
+    padding:10px 5px;
+}
